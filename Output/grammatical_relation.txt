@@ -1,0 +1,213 @@
+Có bao nhiêu môn học được dạy trong học kỳ 1, năm học thứ 1 ?
+
+WH_count MH ?m1
+MH ?m1
+HK ?hk
+HK hk = 1
+NH ?nh
+NH ?nh = 1
+
+
+Có bao nhiêu môn học được dạy trong học kỳ 2, năm học thứ 1 ?
+
+WH_count MH ?m1
+MH ?m1
+HK ?hk
+HK hk = 2
+NH ?nh
+NH ?nh = 1
+
+
+Có bao nhiêu môn học được dạy trong học kỳ 1 và 2, năm học thứ 1 ? 
+
+WH_count MH ?m1
+MH ?m1
+HK ?hk
+HK hk = 1
+HK hk = 2
+NH ?nh
+NH ?nh = 1
+
+
+Có bao nhiêu môn học được dạy trong học kỳ 1, năm học thứ 2 ? 
+
+WH_count MH ?m1
+MH ?m1
+HK ?hk
+HK hk = 1
+NH ?nh
+NH ?nh = 2
+
+
+Có bao nhiêu môn học được dạy trong học kỳ 2, năm học thứ 2 ? 
+
+WH_count MH ?m1
+MH ?m1
+HK ?hk
+HK hk = 2
+NH ?nh
+NH ?nh = 2
+
+
+Có bao nhiêu môn học được dạy trong học kỳ 1 và 2, năm học thứ 2 ? 
+
+WH_count MH ?m1
+MH ?m1
+HK ?hk
+HK hk = 1
+HK hk = 2
+NH ?nh
+NH ?nh = 2
+
+
+Có bao nhiêu môn học được dạy trong cả 2 học kỳ năm học thứ 1 ? 
+
+WH_count MH ?m1
+MH ?m1
+HK hk = 12
+HK ?hk
+NH ?nh
+NH ?nh = 1
+
+
+Có bao nhiêu môn học được dạy trong cả 2 học kỳ năm học thứ 2 ? 
+
+WH_count MH ?m1
+MH ?m1
+HK hk = 12
+HK ?hk
+NH ?nh
+NH ?nh = 2
+
+
+Có bao nhiêu môn học được dạy trong học kỳ 1, năm học thứ 1 và thứ 2 ? 
+
+WH_count MH ?m1
+MH ?m1
+HK ?hk
+HK hk = 1
+NH ?nh
+NH ?nh = 1
+NH ?nh = 2
+
+
+Có bao nhiêu môn học được dạy trong học kỳ 2, năm học thứ 1 và thứ 2 ? 
+
+WH_count MH ?m1
+MH ?m1
+HK ?hk
+HK hk = 2
+NH ?nh
+NH ?nh = 1
+NH ?nh = 2
+
+
+Có bao nhiêu môn học được dạy trong cả 2 học kỳ năm học thứ 1 và thứ 2 ? 
+
+WH_count MH ?m1
+MH ?m1
+HK hk = 12
+HK ?hk
+NH ?nh
+NH ?nh = 1
+NH ?nh = 2
+
+
+Cho biết tên môn học và mã môn học được dạy cả hai học kỳ năm học thứ 1 ? 
+
+EACH ?m1
+MSMH ?ms1
+MH ?m1
+HK hk = 12
+HK ?hk
+NH ?nh
+NH ?nh = 1
+
+
+Cho biết tên môn học và mã môn học được dạy cả hai học kỳ năm học thứ 2 ? 
+
+EACH ?m1
+MSMH ?ms1
+MH ?m1
+HK hk = 12
+HK ?hk
+NH ?nh
+NH ?nh = 2
+
+
+Cho biết tên môn học và mã môn học được dạy cả hai học kỳ năm học thứ 1 và thứ 2 ? 
+
+EACH ?m1
+MSMH ?ms1
+MH ?m1
+HK hk = 12
+HK ?hk
+NH ?nh
+NH ?nh = 1
+NH ?nh = 2
+
+
+Cho biết tên môn học có mã số: 055131 ? 
+
+EACH ?m1
+MSMH ms1 = 055131
+
+
+Cho biết mã số môn học "Quản lý dữ liệu doanh nghiệp" ? 
+
+MSMH ?ms1
+EACH ?m1
+MH m1 = quản lý dữ liệu doanh nghiệp
+
+
+Cho biết môn học có mã số 055253, được dạy vào học kỳ nào, năm học nào ? 
+
+EACH ?m1
+MSMH ?ms1
+MSMH ms1 = 055253
+MH ?m1
+HK ?hk
+NH ?nh
+
+
+Môn học có mã số 055151 và môn học có mã số 055235 có được dạy cùng học kỳ trong cùng năm học ? 
+
+MSMH ?ms1
+MSMH ms1 = 055151
+MSMH ?ms1
+MSMH ms1 = 055235
+MH ?m1
+MH ?m1
+HK ?hk
+NH ?nh
+
+
+Môn học có mã số 055010 có được dạy cả hai học kỳ trong 1 năm học không ? 
+
+MSMH ?ms1
+MSMH ms1 = 055010
+MH ?m1
+HK hk = 12
+HK ?hk
+NH nh = 10 xor 02
+NH ?nh
+
+
+Môn học nào chỉ dạy trong 1 năm học, cho biết tên, mã số môn học và học kỳ trong năm học ? 
+
+MH ?m1
+NH nh = 10 xor 02
+MSMH ?ms1
+MH ?m1
+EACH ?m1
+NH ?nh
+
+
+Có môn học nào không được dạy trong 1 năm học, cho biết tên, mã số môn học và năm học ?
+MH ?m1
+NH nh = 10 xor 02
+MSMH ?ms1
+MH ?m1
+EACH ?m1
+
+
