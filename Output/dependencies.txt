@@ -1,0 +1,261 @@
+Sentence: Có bao nhiêu môn học được dạy trong học kỳ 1, năm học thứ 1 ?
+Dependencies:
+('wh_count', ('môn học', 'bao nhiêu'))
+('dobj', ('dạy', 'môn học'))
+('root', ('root', 'dạy'))
+('hk_time', ('dạy', 'học kỳ'))
+('num_hk', ('học kỳ', '1'))
+('num_nh_det', ('năm học', '1'))
+('nh_mod', ('học kỳ', 'năm học'))
+('num_nh', ('năm học', '1'))
+('query', ('dạy', '?'))
+
+
+Sentence: Có bao nhiêu môn học được dạy trong học kỳ 2, năm học thứ 1 ?
+Dependencies:
+('wh_count', ('môn học', 'bao nhiêu'))
+('dobj', ('dạy', 'môn học'))
+('root', ('root', 'dạy'))
+('hk_time', ('dạy', 'học kỳ'))
+('num_hk', ('học kỳ', '2'))
+('num_nh_det', ('năm học', '2'))
+('nh_mod', ('học kỳ', 'năm học'))
+('num_nh', ('năm học', '1'))
+('query', ('dạy', '?'))
+
+
+Sentence: Có bao nhiêu môn học được dạy trong học kỳ 1 và 2, năm học thứ 1 ? 
+Dependencies:
+('wh_count', ('môn học', 'bao nhiêu'))
+('dobj', ('dạy', 'môn học'))
+('root', ('root', 'dạy'))
+('hk_time', ('dạy', 'học kỳ'))
+('num_hk', ('học kỳ', '1'))
+('num_hk', ('học kỳ', '2'))
+('num_nh_det', ('năm học', '2'))
+('nh_mod', ('học kỳ', 'năm học'))
+('num_nh', ('năm học', '1'))
+('query', ('dạy', '?'))
+
+
+Sentence: Có bao nhiêu môn học được dạy trong học kỳ 1, năm học thứ 2 ? 
+Dependencies:
+('wh_count', ('môn học', 'bao nhiêu'))
+('dobj', ('dạy', 'môn học'))
+('root', ('root', 'dạy'))
+('hk_time', ('dạy', 'học kỳ'))
+('num_hk', ('học kỳ', '1'))
+('num_nh_det', ('năm học', '1'))
+('nh_mod', ('học kỳ', 'năm học'))
+('num_nh', ('năm học', '2'))
+('query', ('dạy', '?'))
+
+
+Sentence: Có bao nhiêu môn học được dạy trong học kỳ 2, năm học thứ 2 ? 
+Dependencies:
+('wh_count', ('môn học', 'bao nhiêu'))
+('dobj', ('dạy', 'môn học'))
+('root', ('root', 'dạy'))
+('hk_time', ('dạy', 'học kỳ'))
+('num_hk', ('học kỳ', '2'))
+('num_nh_det', ('năm học', '2'))
+('nh_mod', ('học kỳ', 'năm học'))
+('num_nh', ('năm học', '2'))
+('query', ('dạy', '?'))
+
+
+Sentence: Có bao nhiêu môn học được dạy trong học kỳ 1 và 2, năm học thứ 2 ? 
+Dependencies:
+('wh_count', ('môn học', 'bao nhiêu'))
+('dobj', ('dạy', 'môn học'))
+('root', ('root', 'dạy'))
+('hk_time', ('dạy', 'học kỳ'))
+('num_hk', ('học kỳ', '1'))
+('num_hk', ('học kỳ', '2'))
+('num_nh_det', ('năm học', '2'))
+('nh_mod', ('học kỳ', 'năm học'))
+('num_nh', ('năm học', '2'))
+('query', ('dạy', '?'))
+
+
+Sentence: Có bao nhiêu môn học được dạy trong cả 2 học kỳ năm học thứ 1 ? 
+Dependencies:
+('wh_count', ('môn học', 'bao nhiêu'))
+('dobj', ('dạy', 'môn học'))
+('root', ('root', 'dạy'))
+('num_det', ('học kỳ', '2'))
+('hk_time', ('dạy', 'học kỳ'))
+('nh_mod', ('học kỳ', 'năm học'))
+('num_nh', ('năm học', '1'))
+('query', ('dạy', '?'))
+
+
+Sentence: Có bao nhiêu môn học được dạy trong cả 2 học kỳ năm học thứ 2 ? 
+Dependencies:
+('wh_count', ('môn học', 'bao nhiêu'))
+('dobj', ('dạy', 'môn học'))
+('root', ('root', 'dạy'))
+('num_det', ('học kỳ', '2'))
+('hk_time', ('dạy', 'học kỳ'))
+('nh_mod', ('học kỳ', 'năm học'))
+('num_nh', ('năm học', '2'))
+('query', ('dạy', '?'))
+
+
+Sentence: Có bao nhiêu môn học được dạy trong học kỳ 1, năm học thứ 1 và thứ 2 ? 
+Dependencies:
+('wh_count', ('môn học', 'bao nhiêu'))
+('dobj', ('dạy', 'môn học'))
+('root', ('root', 'dạy'))
+('hk_time', ('dạy', 'học kỳ'))
+('num_hk', ('học kỳ', '1'))
+('num_nh_det', ('năm học', '1'))
+('nh_mod', ('học kỳ', 'năm học'))
+('num_nh', ('năm học', '1'))
+('num_nh', ('năm học', '2'))
+('query', ('dạy', '?'))
+
+
+Sentence: Có bao nhiêu môn học được dạy trong học kỳ 2, năm học thứ 1 và thứ 2 ? 
+Dependencies:
+('wh_count', ('môn học', 'bao nhiêu'))
+('dobj', ('dạy', 'môn học'))
+('root', ('root', 'dạy'))
+('hk_time', ('dạy', 'học kỳ'))
+('num_hk', ('học kỳ', '2'))
+('num_nh_det', ('năm học', '2'))
+('nh_mod', ('học kỳ', 'năm học'))
+('num_nh', ('năm học', '1'))
+('num_nh', ('năm học', '2'))
+('query', ('dạy', '?'))
+
+
+Sentence: Có bao nhiêu môn học được dạy trong cả 2 học kỳ năm học thứ 1 và thứ 2 ? 
+Dependencies:
+('wh_count', ('môn học', 'bao nhiêu'))
+('dobj', ('dạy', 'môn học'))
+('root', ('root', 'dạy'))
+('num_det', ('học kỳ', '2'))
+('hk_time', ('dạy', 'học kỳ'))
+('nh_mod', ('học kỳ', 'năm học'))
+('num_nh', ('năm học', '1'))
+('num_nh', ('năm học', '2'))
+('query', ('dạy', '?'))
+
+
+Sentence: Cho biết tên môn học và mã môn học được dạy cả hai học kỳ năm học thứ 1 ? 
+Dependencies:
+('give_each', ('tên môn học', 'cho biết'))
+('id_mod', ('môn học', 'mã'))
+('dobj', ('dạy', 'môn học'))
+('root', ('root', 'dạy'))
+('num_det', ('học kỳ', 'hai'))
+('hk_time', ('dạy', 'học kỳ'))
+('nh_mod', ('học kỳ', 'năm học'))
+('num_nh', ('năm học', '1'))
+('query', ('dạy', '?'))
+
+
+Sentence: Cho biết tên môn học và mã môn học được dạy cả hai học kỳ năm học thứ 2 ? 
+Dependencies:
+('give_each', ('tên môn học', 'cho biết'))
+('id_mod', ('môn học', 'mã'))
+('dobj', ('dạy', 'môn học'))
+('root', ('root', 'dạy'))
+('num_det', ('học kỳ', 'hai'))
+('hk_time', ('dạy', 'học kỳ'))
+('nh_mod', ('học kỳ', 'năm học'))
+('num_nh', ('năm học', '2'))
+('query', ('dạy', '?'))
+
+
+Sentence: Cho biết tên môn học và mã môn học được dạy cả hai học kỳ năm học thứ 1 và thứ 2 ? 
+Dependencies:
+('give_each', ('tên môn học', 'cho biết'))
+('id_mod', ('môn học', 'mã'))
+('dobj', ('dạy', 'môn học'))
+('root', ('root', 'dạy'))
+('num_det', ('học kỳ', 'hai'))
+('hk_time', ('dạy', 'học kỳ'))
+('nh_mod', ('học kỳ', 'năm học'))
+('num_nh', ('năm học', '1'))
+('num_nh', ('năm học', '2'))
+('query', ('dạy', '?'))
+
+
+Sentence: Cho biết tên môn học có mã số: 055131 ? 
+Dependencies:
+('give_each', ('tên môn học', 'cho biết'))
+('num_id', ('mã số', '055131'))
+
+
+Sentence: Cho biết mã số môn học "Quản lý dữ liệu doanh nghiệp" ? 
+Dependencies:
+('id_mod', ('môn học', 'mã số'))
+('give_each', ('môn học', 'cho biết'))
+('name_mod', ('môn học', 'quản lý dữ liệu doanh nghiệp'))
+
+
+Sentence: Cho biết môn học có mã số 055253, được dạy vào học kỳ nào, năm học nào ? 
+Dependencies:
+('give_each', ('môn học', 'cho biết'))
+('id_mod', ('môn học', 'mã số'))
+('num_id', ('mã số', '055253'))
+('dobj', ('dạy', 'môn học'))
+('root', ('root', 'dạy'))
+('hk_time', ('dạy', 'học kỳ'))
+('nh_mod', ('học kỳ', 'năm học'))
+('query', ('dạy', '?'))
+
+
+Sentence: Môn học có mã số 055151 và môn học có mã số 055235 có được dạy cùng học kỳ trong cùng năm học ? 
+Dependencies:
+('id_mod', ('môn học', 'mã số'))
+('num_id', ('mã số', '055151'))
+('id_mod', ('môn học', 'mã số'))
+('num_id', ('mã số', '055235'))
+('dobj', ('dạy', 'môn học'))
+('dobj', ('dạy', 'môn học'))
+('root', ('root', 'dạy'))
+('hk_time', ('dạy', 'học kỳ'))
+('nh_mod', ('học kỳ', 'năm học'))
+('query', ('dạy', '?'))
+
+
+Sentence: Môn học có mã số 055010 có được dạy cả hai học kỳ trong 1 năm học không ? 
+Dependencies:
+('id_mod', ('môn học', 'mã số'))
+('num_id', ('mã số', '055010'))
+('dobj', ('dạy', 'môn học'))
+('root', ('root', 'dạy'))
+('num_det', ('học kỳ', 'hai'))
+('hk_time', ('dạy', 'học kỳ'))
+('num_hk', ('học kỳ', '1'))
+('num_nh_det', ('năm học', '1'))
+('nh_mod', ('học kỳ', 'năm học'))
+('query', ('dạy', '?'))
+
+
+Sentence: Môn học nào chỉ dạy trong 1 năm học, cho biết tên, mã số môn học và học kỳ trong năm học ? 
+Dependencies:
+('dobj', ('dạy', 'môn học'))
+('root', ('root', 'dạy'))
+('num_nh_det', ('năm học', '1'))
+('id_mod', ('môn học', 'mã số'))
+('name_mod', ('môn học', 'tên'))
+('give_each', ('môn học', 'cho biết'))
+('nh_mod', ('học kỳ', 'năm học'))
+('query', ('dạy', '?'))
+
+
+Sentence: Có môn học nào không được dạy trong 1 năm học, cho biết tên, mã số môn học và năm học ?Dependencies:
+('neg', ('dạy', 'không'))
+('dobj', ('dạy', 'môn học'))
+('root', ('root', 'dạy'))
+('num_nh_det', ('năm học', '1'))
+('id_mod', ('môn học', 'mã số'))
+('name_mod', ('môn học', 'tên'))
+('give_each', ('môn học', 'cho biết'))
+('query', ('dạy', '?'))
+
+

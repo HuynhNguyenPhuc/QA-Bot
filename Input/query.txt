@@ -1,0 +1,21 @@
+Có bao nhiêu môn học được dạy trong học kỳ 1, năm học thứ 1 ?
+Có bao nhiêu môn học được dạy trong học kỳ 2, năm học thứ 1 ?
+Có bao nhiêu môn học được dạy trong học kỳ 1 và 2, năm học thứ 1 ? 
+Có bao nhiêu môn học được dạy trong học kỳ 1, năm học thứ 2 ? 
+Có bao nhiêu môn học được dạy trong học kỳ 2, năm học thứ 2 ? 
+Có bao nhiêu môn học được dạy trong học kỳ 1 và 2, năm học thứ 2 ? 
+Có bao nhiêu môn học được dạy trong cả 2 học kỳ năm học thứ 1 ? 
+Có bao nhiêu môn học được dạy trong cả 2 học kỳ năm học thứ 2 ? 
+Có bao nhiêu môn học được dạy trong học kỳ 1, năm học thứ 1 và thứ 2 ? 
+Có bao nhiêu môn học được dạy trong học kỳ 2, năm học thứ 1 và thứ 2 ? 
+Có bao nhiêu môn học được dạy trong cả 2 học kỳ năm học thứ 1 và thứ 2 ? 
+Cho biết tên môn học và mã môn học được dạy cả hai học kỳ năm học thứ 1 ? 
+Cho biết tên môn học và mã môn học được dạy cả hai học kỳ năm học thứ 2 ? 
+Cho biết tên môn học và mã môn học được dạy cả hai học kỳ năm học thứ 1 và thứ 2 ? 
+Cho biết tên môn học có mã số: 055131 ? 
+Cho biết mã số môn học "Quản lý dữ liệu doanh nghiệp" ? 
+Cho biết môn học có mã số 055253, được dạy vào học kỳ nào, năm học nào ? 
+Môn học có mã số 055151 và môn học có mã số 055235 có được dạy cùng học kỳ trong cùng năm học ? 
+Môn học có mã số 055010 có được dạy cả hai học kỳ trong 1 năm học không ? 
+Môn học nào chỉ dạy trong 1 năm học, cho biết tên, mã số môn học và học kỳ trong năm học ? 
+Có môn học nào không được dạy trong 1 năm học, cho biết tên, mã số môn học và năm học ?
