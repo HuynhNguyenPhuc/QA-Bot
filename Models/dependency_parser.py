@@ -5,7 +5,7 @@ class DependencyParser:
         self.complete = False
 
     def parse(self):
-        dependencies = []
+        self.dependencies = []
         while not self.complete:
             operation, dependency = self.transition()
             if operation == "complete":
@@ -17,15 +17,15 @@ class DependencyParser:
             elif operation == "reduce":
                 self.stack.pop()
             elif operation == "left_arc":
-                dependencies.append((dependency, (self.lexicons[0], self.stack[-1])))
+                self.dependencies.append((dependency, (self.lexicons[0], self.stack[-1])))
                 self.stack.pop()
             elif operation == "right_arc":
-                dependencies.append((dependency, (self.stack[-1], self.lexicons[0])))
+                self.dependencies.append((dependency, (self.stack[-1], self.lexicons[0])))
                 lexicon = self.lexicons.pop(0)
                 self.stack.append(lexicon)
                 
 
-        return dependencies
+        return self.dependencies
             
 
     def transition(self):
@@ -57,7 +57,7 @@ class DependencyParser:
             elif self.lexicons[0] in ["mã số", "mã"]:
                 return "right_arc", "id_mod"
             elif self.lexicons[0] == "quản lý dữ liệu doanh nghiệp":
-                return "right_arc", "name_mod"
+                return "right_arc", "course_name"
             else: return "shift", None
         
         if self.stack[-1] == "dạy":
@@ -66,7 +66,8 @@ class DependencyParser:
             else: return "shift", "query"
 
         if self.stack[-1] == "học kỳ":
-            if self.lexicons[0] in ["1", "2"]:
+            dependencyType = list(map(lambda x: x[0], self.dependencies))
+            if self.lexicons[0] in ["1", "2"] and 'num_hk_det' not in dependencyType:
                 return "right_arc", "num_hk"
             elif self.lexicons[0] == "năm học":
                 return "right_arc","nh_mod"
@@ -92,8 +93,8 @@ class DependencyParser:
 
         if self.stack[-1] in ["1", "2", "một", "hai"]:
             if self.lexicons[0] == "học kỳ":
-                return "left_arc","num_det"
-            if self.lexicons[0] == "năm học":
+                return "left_arc","num_hk_det"
+            if self.lexicons[0] == "năm học" and not self.lexicons[1] in ["1", "2", "một", "hai"]:
                 return "left_arc", "num_nh_det"
             
         if self.stack[-1] == "không":
