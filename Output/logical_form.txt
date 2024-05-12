@@ -1,0 +1,84 @@
+Sentence: Có bao nhiêu môn học được dạy trong học kỳ 1, năm học thứ 1 ?
+Logical Form: (WH_count MH ?m1)(& (MH ?m1)(HK = 1)(NH = 1))
+
+
+Sentence: Có bao nhiêu môn học được dạy trong học kỳ 2, năm học thứ 1 ?
+Logical Form: (WH_count MH ?m1)(& (MH ?m1)(HK = 2)(NH = 1))
+
+
+Sentence: Có bao nhiêu môn học được dạy trong học kỳ 1 và 2, năm học thứ 1 ? 
+Logical Form: (WH_count MH ?m1)(& (MH ?m1)(HK = 12)(NH = 1))
+
+
+Sentence: Có bao nhiêu môn học được dạy trong học kỳ 1, năm học thứ 2 ? 
+Logical Form: (WH_count MH ?m1)(& (MH ?m1)(HK = 1)(NH = 2))
+
+
+Sentence: Có bao nhiêu môn học được dạy trong học kỳ 2, năm học thứ 2 ? 
+Logical Form: (WH_count MH ?m1)(& (MH ?m1)(HK = 2)(NH = 2))
+
+
+Sentence: Có bao nhiêu môn học được dạy trong học kỳ 1 và 2, năm học thứ 2 ? 
+Logical Form: (WH_count MH ?m1)(& (MH ?m1)(HK = 12)(NH = 2))
+
+
+Sentence: Có bao nhiêu môn học được dạy trong cả 2 học kỳ năm học thứ 1 ? 
+Logical Form: (WH_count MH ?m1)(& (MH ?m1)(HK = 12)(NH = 1))
+
+
+Sentence: Có bao nhiêu môn học được dạy trong cả 2 học kỳ năm học thứ 2 ? 
+Logical Form: (WH_count MH ?m1)(& (MH ?m1)(HK = 12)(NH = 2))
+
+
+Sentence: Có bao nhiêu môn học được dạy trong học kỳ 1, năm học thứ 1 và thứ 2 ? 
+Logical Form: (WH_count MH ?m1)(& (MH ?m1)(HK = 1)(NH = 1)(NH = 2))
+
+
+Sentence: Có bao nhiêu môn học được dạy trong học kỳ 2, năm học thứ 1 và thứ 2 ? 
+Logical Form: (WH_count MH ?m1)(& (MH ?m1)(HK = 2)(NH = 1)(NH = 2))
+
+
+Sentence: Có bao nhiêu môn học được dạy trong cả 2 học kỳ năm học thứ 1 và thứ 2 ? 
+Logical Form: (WH_count MH ?m1)(& (MH ?m1)(HK = 12)(NH = 1)(NH = 2))
+
+
+Sentence: Cho biết tên môn học và mã môn học được dạy cả hai học kỳ năm học thứ 1 ? 
+Logical Form: (EACH ?m1)(& (MH ?m1)(MSMH ?ms1)(HK = 12)(NH = 1))
+
+
+Sentence: Cho biết tên môn học và mã môn học được dạy cả hai học kỳ năm học thứ 2 ? 
+Logical Form: (EACH ?m1)(& (MH ?m1)(MSMH ?ms1)(HK = 12)(NH = 2))
+
+
+Sentence: Cho biết tên môn học và mã môn học được dạy cả hai học kỳ năm học thứ 1 và thứ 2 ? 
+Logical Form: (EACH ?m1)(& (MH ?m1)(MSMH ?ms1)(HK = 12)(NH = 1)(NH = 2))
+
+
+Sentence: Cho biết tên môn học có mã số: 055131 ? 
+Logical Form: (EACH ?m1)(& (MH ?m1)(MSMH ms1 = 055131))
+
+
+Sentence: Cho biết mã số môn học "Quản lý dữ liệu doanh nghiệp" ? 
+Logical Form: (EACH ?m1)(& (MH m1 = quản lý dữ liệu doanh nghiệp)(MSMH ?ms1))
+
+
+Sentence: Cho biết môn học có mã số 055253, được dạy vào học kỳ nào, năm học nào ? 
+Logical Form: (EACH ?m1)(& (MH ?m1)(MSMH ms1 = 055253)(HK ?hk)(NH ?nh))
+
+
+Sentence: Môn học có mã số 055151 và môn học có mã số 055235 có được dạy cùng học kỳ trong cùng năm học ? 
+Logical Form: (YES-NO)(& (MH ?m1)(MH ?m2)(MSMH ms1 = 055151)(MSMH ms2 = 055235)(HK ?hk)(NH ?nh))
+
+
+Sentence: Môn học có mã số 055010 có được dạy cả hai học kỳ trong 1 năm học không ? 
+Logical Form: (YES-NO)(& (MH ?m1)(MSMH ms1 = 055010)(HK = 12)(NH = 1 xor 2))
+
+
+Sentence: Môn học nào chỉ dạy trong 1 năm học, cho biết tên, mã số môn học và học kỳ trong năm học ? 
+Logical Form: (EACH ?m1)(& (MH ?m1)(SINGLE)(MH ?m1)(MSMH ?ms1)(NH = 1 xor 2))
+
+
+Sentence: Có môn học nào không được dạy trong 1 năm học, cho biết tên, mã số môn học và năm học ?
+Logical Form: (EACH ?m1)(& (MH ?m1)(NEGATIVE)(MH ?m1)(MSMH ?ms1)(NH = 1 xor 2))
+
+
