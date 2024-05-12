@@ -1,0 +1,108 @@
+Query: Có bao nhiêu môn học được dạy trong học kỳ 1, năm học thứ 1 ?
+Answer: Số lượng môn học thỏa mãn truy vấn là 14.
+
+
+Query: Có bao nhiêu môn học được dạy trong học kỳ 2, năm học thứ 1 ?
+Answer: Số lượng môn học thỏa mãn truy vấn là 15.
+
+
+Query: Có bao nhiêu môn học được dạy trong học kỳ 1 và 2, năm học thứ 1 ? 
+Answer: Số lượng môn học thỏa mãn truy vấn là 9.
+
+
+Query: Có bao nhiêu môn học được dạy trong học kỳ 1, năm học thứ 2 ? 
+Answer: Số lượng môn học thỏa mãn truy vấn là 13.
+
+
+Query: Có bao nhiêu môn học được dạy trong học kỳ 2, năm học thứ 2 ? 
+Answer: Số lượng môn học thỏa mãn truy vấn là 12.
+
+
+Query: Có bao nhiêu môn học được dạy trong học kỳ 1 và 2, năm học thứ 2 ? 
+Answer: Số lượng môn học thỏa mãn truy vấn là 6.
+
+
+Query: Có bao nhiêu môn học được dạy trong cả 2 học kỳ năm học thứ 1 ? 
+Answer: Số lượng môn học thỏa mãn truy vấn là 9.
+
+
+Query: Có bao nhiêu môn học được dạy trong cả 2 học kỳ năm học thứ 2 ? 
+Answer: Số lượng môn học thỏa mãn truy vấn là 6.
+
+
+Query: Có bao nhiêu môn học được dạy trong học kỳ 1, năm học thứ 1 và thứ 2 ? 
+Answer: Số lượng môn học thỏa mãn truy vấn là 7.
+
+
+Query: Có bao nhiêu môn học được dạy trong học kỳ 2, năm học thứ 1 và thứ 2 ? 
+Answer: Số lượng môn học thỏa mãn truy vấn là 7.
+
+
+Query: Có bao nhiêu môn học được dạy trong cả 2 học kỳ năm học thứ 1 và thứ 2 ? 
+Answer: Số lượng môn học thỏa mãn truy vấn là 3.
+
+
+Query: Cho biết tên môn học và mã môn học được dạy cả hai học kỳ năm học thứ 1 ? 
+Answer: Kết quả của câu truy vấn là:
+An ninh mạng - 055166
+Cơ sở toán học cho máy tính - 055263
+Học máy và ứng dụng - 055241
+Học sâu và ứng dụng trong thị giác - 055255
+Kho dữ liệu và hệ hỗ trợ ra quyết định - 055022
+Phân tích chương trình - 055146
+Quản lý dữ liệu doanh nghiệp - 055234
+Xử lý ngôn ngữ tự nhiên - 055143
+Quản lý hệ thống thông tin - 055102
+
+
+
+Query: Cho biết tên môn học và mã môn học được dạy cả hai học kỳ năm học thứ 2 ? 
+Answer: Kết quả của câu truy vấn là:
+Dữ liệu lớn - 055153
+Cơ sở toán học cho máy tính - 055263
+Học máy và ứng dụng - 055241
+Mật mã học ứng dụng - 055221
+Phân tích chương trình - 055146
+Quản trị hệ thống thông tin kinh doanh - 055010
+
+
+
+Query: Cho biết tên môn học và mã môn học được dạy cả hai học kỳ năm học thứ 1 và thứ 2 ? 
+Answer: Kết quả của câu truy vấn là:
+Cơ sở toán học cho máy tính - 055263
+Học máy và ứng dụng - 055241
+Phân tích chương trình - 055146
+
+
+
+Query: Cho biết tên môn học có mã số: 055131 ? 
+Answer: Kết quả của câu truy vấn là:
+Môn học: Khai phá dữ liệu
+
+
+Query: Cho biết mã số môn học "Quản lý dữ liệu doanh nghiệp" ? 
+Answer: Kết quả của câu truy vấn là:
+MSMH: 055234
+
+
+Query: Cho biết môn học có mã số 055253, được dạy vào học kỳ nào, năm học nào ? 
+Answer: Kết quả của câu truy vấn là:
+Môn học: Phân tích mã độc, dạy vào học kì 1 trong năm học 1, dạy vào học kì 2 trong năm học 2
+
+
+Query: Môn học có mã số 055151 và môn học có mã số 055235 có được dạy cùng học kỳ trong cùng năm học ? 
+Answer: NO
+
+
+Query: Môn học có mã số 055010 có được dạy cả hai học kỳ trong 1 năm học không ? 
+Answer: YES
+
+
+Query: Môn học nào chỉ dạy trong 1 năm học, cho biết tên, mã số môn học và học kỳ trong năm học ? 
+Answer: None
+
+
+Query: Có môn học nào không được dạy trong 1 năm học, cho biết tên, mã số môn học và năm học ?
+Answer: None
+
+
