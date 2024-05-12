@@ -224,11 +224,13 @@ Dependencies:
 ('hk_time', ('dạy', 'học kỳ'))
 ('num_nh_det', ('năm học', '1'))
 ('nh_mod', ('học kỳ', 'năm học'))
+('yes-no', ('?', 'không'))
 ('query', ('dạy', '?'))
 
 
 Sentence: Môn học nào chỉ dạy trong 1 năm học, cho biết tên, mã số môn học và học kỳ trong năm học ? 
 Dependencies:
+('single', ('dạy', 'chỉ'))
 ('dobj', ('dạy', 'môn học'))
 ('root', ('root', 'dạy'))
 ('num_nh_det', ('năm học', '1'))
@@ -239,7 +241,8 @@ Dependencies:
 ('query', ('dạy', '?'))
 
 
-Sentence: Có môn học nào không được dạy trong 1 năm học, cho biết tên, mã số môn học và năm học ?Dependencies:
+Sentence: Có môn học nào không được dạy trong 1 năm học, cho biết tên, mã số môn học và năm học ?
+Dependencies:
 ('neg', ('dạy', 'không'))
 ('dobj', ('dạy', 'môn học'))
 ('root', ('root', 'dạy'))

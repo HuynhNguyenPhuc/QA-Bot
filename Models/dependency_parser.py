@@ -35,8 +35,10 @@ class DependencyParser:
         if self.lexicons[0] == "?":
             if self.stack[-1] == 'root':
                 return "shift", None
+            elif self.stack[-1] == "không":
+                return "left_arc", "yes-no"
             elif self.stack[-1] != "dạy":
-                return "reduce", None
+                return "reduce", None 
             else: 
                 return "right_arc","query"
 
@@ -100,7 +102,11 @@ class DependencyParser:
         if self.stack[-1] == "không":
             if self.lexicons[0] == "dạy":
                 return "left_arc", "neg"
-             
+        
+        if self.stack[-1] == "chỉ":
+            if self.lexicons[0] == "dạy":
+                return "left_arc", "single"
+        
         if self.stack[-1] == "tên":
             if self.lexicons[0] == "môn học":
                 return "left_arc", "name_mod"

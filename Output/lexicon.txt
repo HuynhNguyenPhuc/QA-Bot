@@ -78,6 +78,7 @@ Sentence: Môn học nào chỉ dạy trong 1 năm học, cho biết tên, mã s
 Lexicons: môn học, chỉ, dạy, 1, năm học, cho biết, tên, mã số, môn học, học kỳ, năm học, ?
 
 
-Sentence: Có môn học nào không được dạy trong 1 năm học, cho biết tên, mã số môn học và năm học ?Lexicons: môn học, không, dạy, 1, năm học, cho biết, tên, mã số, môn học, năm học, ?
+Sentence: Có môn học nào không được dạy trong 1 năm học, cho biết tên, mã số môn học và năm học ?
+Lexicons: môn học, không, dạy, 1, năm học, cho biết, tên, mã số, môn học, năm học, ?
 
 
